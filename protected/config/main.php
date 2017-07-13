@@ -77,21 +77,21 @@ return array(
 		// uncomment the following to use a MySQL database
 
 
-// 		'db'=>array(
-// 			'connectionString' => 'mysql:host=localhost;dbname=db_project_pos',
-// 			'emulatePrepare' => true,
-// 			'username' => 'root',
-// 			'password' => '',
-// 			'charset' => 'utf8',
-// 			),
-
 		'db'=>array(
-			'connectionString' => 'mysql:host=localhost;dbname=u0282705_regal_bisnis',
+			'connectionString' => 'mysql:host=localhost;dbname=i_warung',
 			'emulatePrepare' => true,
-			'username' => 'u0282705_regal',
-			'password' => ',7%xoETy@_UF',
+			'username' => 'root',
+			'password' => '',
 			'charset' => 'utf8',
 			),
+
+		// 'db'=>array(
+		// 	'connectionString' => 'mysql:host=localhost;dbname=u0282705_regal_bisnis',
+		// 	'emulatePrepare' => true,
+		// 	'username' => 'u0282705_regal',
+		// 	'password' => ',7%xoETy@_UF',
+		// 	'charset' => 'utf8',
+		// 	),
 		
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
